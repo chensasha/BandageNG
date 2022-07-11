@@ -588,7 +588,7 @@ void AssemblyGraph::markNodesToDraw(const std::vector<DeBruijnNode *>& startingN
 
             node->setAsDrawn();
             node->setAsSpecial();
-            node->labelNeighbouringNodesAsDrawn(nodeDistance, nullptr);
+            node->labelNeighbouringNodesAsDrawn(nodeDistance);
         }
     }
 
