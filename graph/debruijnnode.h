@@ -108,7 +108,7 @@ public:
     void addEdge(DeBruijnEdge * edge);
     void removeEdge(DeBruijnEdge * edge);
     void determineContiguity();
-    void labelNeighbouringNodesAsDrawn(int nodeDistance, DeBruijnNode * callingNode);
+    void labelNeighbouringNodesAsDrawn(int nodeDistance);
     void setDepth(double newDepth) {m_depth = newDepth;}
     void setName(QString newName) {m_name = std::move(newName);}
 
